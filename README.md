@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+<h1 align="center">NewsKart</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## About
+-In the NewsKart app, I've utilized the News API and integrated it with a React application to deliver the latest news to users. The app is designed to display news articles based on user interests, providing a personalized news-viewing experience. I've used fetch API to retrieve news data and ensured successful retrieval by logging the data to the console.
 
-In the project directory, you can run:
+-To organize the display of news content, I've created React components such as NewsList and NewsItem. These components help structure the news articles by displaying relevant information like headlines, descriptions, and publication details.
 
-### `npm start`
+-Additionally, I've implemented a filter functionality that allows users to customize their news feed based on their interests. By querying the API with user preferences, the app fetches filtered news, ensuring users see only the content they care about.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Lastly, I've enhanced the user experience with an infinite scroll feature. As users scroll down, the app loads additional news content seamlessly, providing a continuous browsing experience.
+ 
+### How to run the app?
+- The application was deployed on a [public url](https://newskartbysaurabh.netlify.app/) with the help Netlify's cloud.
+- To test the app locally:
+  - `git clone https://github.com/saurabhyadav04/Newskart`
+  - `cd NewsKart`
+  - update **config-dev.json**.
+  - run `npm install`
+  - run `npm start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Functions Description**
+  - Stay informed with the latest news articles fetched in real-time from NewsAPI.
+  - Enjoy a user-friendly design that makes browsing news a seamless experience.
+  - Discover news organized by various categories and topics, making it easy to find articles of interest.
+  - Dive into full news articles effortlessly by clicking on the respective headlines.
+  - Whether on a desktop, tablet, or mobile device, the app ensures a consistent and enjoyable experience across different screen sizes.
+ 
+ 
+ 
+ 
+### App Architecture
+The application uses 2 components:
+- Frontend
+- Weather API
+ 
+![Architecture](./img/arc.png)
+ 
 
-### `npm test`
+### Difficulties faced during development
+- I was not aware of React and its functionality, so it took 4-5 days in learning the concepts of React and working with API. 
+### Technologies used:-
+- React
+- Javascript
+- News API
+- Bootstrap v3
+- Netlify(a cloud computing company)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Public URL of application can be found [here](https://newskartbysaurabh.netlify.app/)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center"> Made with ❤ by <a href="https://github.com/saurabhshadow">Saurabh Yadav</a></p>

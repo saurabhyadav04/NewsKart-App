@@ -32,7 +32,7 @@
 ### App Architecture
 The application uses 2 components:
 - Frontend
-- Weather API
+- News API
  
 ![Architecture](./img/arc.png)
  
